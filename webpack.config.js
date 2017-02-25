@@ -14,7 +14,8 @@ const config = {
   },
   devServer: {
     open: true,
-    contentBase: __dirname + '/public'
+    contentBase: __dirname + '/public',
+    // watchContentBase: true
   }
 };
 

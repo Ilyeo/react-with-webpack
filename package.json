@@ -4,8 +4,9 @@
   "description": "React app with babel and webpack",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack --config webpack.config.js"
+    "start": "webpack-dev-server --content-base",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --progress --watch"
   },
   "keywords": [],
   "author": "Ilyeo",
