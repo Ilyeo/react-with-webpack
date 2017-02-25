@@ -42,7 +42,6 @@ export default class Comment extends React.Component {
   }
 
   _toggleAbuse() {
-
     this.setState({
       isAbusive: !this.state.isAbusive
     });
